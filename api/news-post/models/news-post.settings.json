@@ -1,0 +1,27 @@
+{
+  "kind": "collectionType",
+  "collectionName": "news_posts",
+  "info": {
+    "name": "newsPost",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "body": {
+      "type": "string"
+    },
+    "imageUrl": {
+      "type": "string"
+    },
+    "writtenBy": {
+      "type": "string"
+    }
+  }
+}
